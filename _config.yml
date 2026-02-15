@@ -2,10 +2,10 @@
 title: Minseok's Blog
 SEOTitle: Minseok's Blog
 header-img: img/home-bg.png
-email: seominseok.blue@gmail.com
+email: seominseokb@gmail.com
 description: "서민석의 블로그"
 keyword: "Minseok's Blog"
-url: "https://seominseok-blue.github.io" # your host, for absolute URL
+url: "https://seominseokb.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-github_username: seominseok-blue
+github_username: seominseokb
 # linkedin_username:  seominseok
 
 # Build settings
@@ -61,7 +61,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: seominseok-blue.github.io
+ga_domain: seominseokb.github.io
 
 # Sidebar settings
 sidebar: false # whether or not using Sidebar.
