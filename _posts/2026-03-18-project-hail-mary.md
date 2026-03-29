@@ -3,8 +3,8 @@ layout: post
 title: "[Review] 프로젝트 헤일메리"
 date: 2026-03-18 23:50:00
 author: "Minseok Seo"
-tags:
 catalog: true
+tags:
     - Review
 ---
 
