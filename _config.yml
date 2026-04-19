@@ -60,7 +60,7 @@ netease_comment: false
 # Analytics settings
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+ga_track_id: "G-9N7EW7GZNN" # Format: G-xxxxxxxxxx (GA4 Measurement ID)
 ga_domain: seominseokb.github.io
 
 # Sidebar settings
