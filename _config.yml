@@ -1,0 +1,41 @@
+title: Minseok's Blog # name of the site
+author: Minseok Seo # name of site's author
+email: seominseokb@gmail.com # email of site's author
+url: https://seominseokb.github.io # root address of the site
+baseurl: "" # user site is served from the root path
+description: > # description of the site (multiple lines allowed)
+  I write about things that interest me.
+
+permalink: /:slug.html
+
+favicon: "favicon.ico" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+  lowercase_titles: true # show titles in lowercase in lists
+
+sass:
+  style: compressed
+
+exclude:
+  - vendor
+  - .jektex-cache
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jektex
+
+jektex:
+  cache_dir: ".jektex-cache"
+  ignore: ["*.xml"]
+  silent: false
+  macros:
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\C", "\\mathbb{C}"]
