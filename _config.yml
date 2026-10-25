@@ -1,11 +1,11 @@
-title: Minseok's Blog # name of the site
-author: Minseok Seo # name of site's author
+title: 서민석의 블로그 # name of the site
+author: 서민석 # name of site's author
 lang: ko-KR
 email: seominseokb@gmail.com # email of site's author
 url: https://seominseokb.github.io # root address of the site
 baseurl: "" # user site is served from the root path
 description: > # description of the site (multiple lines allowed)
-  I write about things that interest me.
+  다양한 것들을 기록합니다.
 
 permalink: /:slug.html
 
