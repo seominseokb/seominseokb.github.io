@@ -1,5 +1,6 @@
 title: Minseok's Blog # name of the site
 author: Minseok Seo # name of site's author
+lang: ko-KR
 email: seominseokb@gmail.com # email of site's author
 url: https://seominseokb.github.io # root address of the site
 baseurl: "" # user site is served from the root path

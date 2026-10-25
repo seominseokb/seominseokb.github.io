@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "토익 스피킹 후기"
+categories: career
 ---
 
 ```

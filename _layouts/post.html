@@ -11,6 +11,19 @@ layout: default
   
   <h1>{{ page.title }}</h1>
 
+  {%- if page.categories.size > 0 -%}
+    <p class="post-categories" aria-label="Categories">
+      {%- for category_slug in page.categories -%}
+        {%- assign category_info = site.data.categories | where: "slug", category_slug | first -%}
+        {%- if category_info -%}
+          <a href="{{ category_info.url | relative_url }}">{{ category_info.title }}</a>
+        {%- else -%}
+          <span>{{ category_slug }}</span>
+        {%- endif -%}
+      {%- endfor -%}
+    </p>
+  {%- endif -%}
+
   {{ content }}
 </article>
 
